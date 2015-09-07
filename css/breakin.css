@@ -19,14 +19,6 @@ h1
     width: 793px;
     }
 
-#top
-    {
-    width: 793px;
-    height: 8px;
-    background: url(/images/top.gif);
-    font-size: 0;
-    }
-    
 #header
     {
     width: 793px;
@@ -37,6 +29,7 @@ h1
     {
     width: 793px;
     background: #fff;
+    border-radius: 12px;
     }
     
 .half
@@ -56,14 +49,6 @@ h1
     color: grey;
     }
 
-#bottom
-    {
-    width: 793px;
-    height: 8px;
-    background: url(/images/bottom.gif);
-    font-size: 0;
-    }
-    
 #copyright
     {
     text-align: center;
