@@ -32,21 +32,12 @@ h1
     border-radius: 12px;
     }
     
-.half
+.action
     {
-    float: left;
     text-align: center;
-    width: 50%;
     padding: 20px 0 20px 0;
     margin: 0;
-    }
-    
-.half ul
-    {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: grey;
+    margin: auto;
     }
 
 #copyright
