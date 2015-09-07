@@ -1,0 +1,100 @@
+body, table
+    {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+    margin: 4px;
+    padding: 4px;
+    }
+    
+#game
+    {
+    position: relative;
+    width: 537px;
+    margin: 5px auto 5px auto;
+    }
+
+#bricks
+    {
+    border: 1px solid #000;
+    border: 1px solid grey;    
+    position: relative;
+    /* Set the initial size just so it isn't silly */
+    height: 20px;
+    width: 20px;
+    font-size: 0;
+    }
+
+#ball
+    {
+    border: 1px solid #000;
+    background-color: yellow;
+    background-color: limegreen;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0;
+    }
+
+.brick
+    {
+    border: 1px solid red;
+    background: pink;
+    position: absolute;
+    height: 10px;
+    width: 25px;
+    font-size: 0px;
+    }
+
+#feedback
+    {
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
+
+#info
+    {
+    border: 1px solid #000;
+    border: 1px solid grey;    
+    position: absolute;
+    width: 75px;
+    height: 202px;
+    text-align: center;
+    top: 0;
+    right: 0;    
+    }
+    
+#info table
+    {
+    margin: auto;
+    }
+
+#bat
+    {
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    border: 1px solid blue;
+    background: lightblue;
+    font-size: 0;
+    }
+
+#splash
+    {
+    z-index: 200;
+    border: 2px solid #000;
+    background-color: #fff;
+    position: absolute;
+    }
+
+#text
+    {
+    border: 1px solid #000;
+    border: 1px solid grey;    
+    margin: 1px 0 0 0;
+    padding: 2px;
+    text-align: center;
+    }
+
