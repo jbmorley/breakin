@@ -79,7 +79,7 @@
     <script language="Javascript">
     
       function game() {
-        var windowGame = window.open('game.html', 'BreakIn', 'height=238, width=550');
+        var windowGame = window.open('game.html', 'BreakIn', 'height=260, width=600');
         if (window.focus) {
           windowGame.focus()
         }
