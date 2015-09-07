@@ -39,16 +39,16 @@ h1
     background: #fff;
     }
     
-.third
+.half
     {
     float: left;
     text-align: center;
-    width: 33%;
+    width: 50%;
     padding: 20px 0 20px 0;
     margin: 0;
     }
     
-.third ul
+.half ul
     {
     list-style: none;
     padding: 0;
