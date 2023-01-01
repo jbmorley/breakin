@@ -3,26 +3,26 @@
     <title>BreakIn 1.0</title>
     <link rel="stylesheet" href="css/breakin.css">
     <script language="Javascript">
-    
+
       function game() {
         var windowGame = window.open('game.html', 'BreakIn', 'height=300, width=600');
         if (window.focus) {
           windowGame.focus()
         }
       }
-    
+
     </script>
-    
+
   </head>
   <body>
-  
+
     <div id="container">
       <div id="main">
         <div id="header"><img src="images/BreakInBunny.png" alt="BreakIn Bunny" /></div>
         <div class="action">
           <a
             onMouseOver="document.getElementById('play').src='images/play.png';"
-            onMouseOut="document.getElementById('play').src='images/play-grey.png';" 
+            onMouseOut="document.getElementById('play').src='images/play-grey.png';"
             href="javascript:game()">
             <img id="play" src="images/play-grey.png" style="border: 0" />
           </a>
@@ -31,8 +31,8 @@
       </div>
     </div>
     <div id="copyright">
-      Copyright &copy; 2006-2022, Jason Barrie Morley, Shawn Erin Leedy
+      Copyright &copy; 2006-2023, Jason Barrie Morley, Shawn Erin Leedy
     </div>
-  
+
   </body>
 </html>
